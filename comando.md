@@ -13,3 +13,9 @@
 - **git fetch**: atualiza a referencia do remote, atualizando as informações sobre as branchs do remote e o estado delas tanto quanto as infomações sobre a branch local, sem o merge;
 - **git pull**: atualiza as referencias e mudanças do remoto e mescla com a branch local autal;
 - **git merge <branchname>**: mescla a branch local atual com a branch especificada.
+- **git config --list**: lista as config do git.
+- **git config --global user.name "seu nome**: adicona o nome do usuario do git.
+- **git config --global user.email "seuemail@gmail.com**: adicona o email do usuario do git. 
+- **criar chave ssh**: ssh-keygen -t ed25519 -C "your_email@example.com"
+- **inicalizar o agente**: eval $(ssh-agen -s)
+- **adicionar chave**: ssh-add c:/Users/richard.fernandes/.ssh/id_ed25519
