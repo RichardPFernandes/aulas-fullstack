@@ -1,0 +1,15 @@
+# Comandos do git
+
+- **git init**: Comando utilizado para iniciar um repositório git (ele cria um arquivo .git);
+- **git status**: verifica as mudanças no repositório;
+- **git add <filename ou . >**: adicona arquivos ao staging para realizar commits;
+- **git rm --cached <file> / git restore --staged <filename ou . >**: restaura arquivos da area de staging;
+- **git branch**: lista todas as branchs locais, com a opção "-r" lista todas as remotas e "-a" todas as branchs, tanto locais quanto remotas;
+- **git checkout <branchname>**: altera a branch em que está atualmente;
+- **git checkout -b <branchname>**: altera a branch criando ela;
+- **git commit -m "<description>"**: faz um commit onde a opção "-m" referencia a mensagem do commit que será enviada;
+- **git push**: envia os commit para a remote branch;
+- **git branch -D <branchname>**: deleta uma branch;
+- **git fetch**: atualiza a referencia do remote, atualizando as informações sobre as branchs do remote e o estado delas tanto quanto as infomações sobre a branch local, sem o merge;
+- **git pull**: atualiza as referencias e mudanças do remoto e mescla com a branch local autal;
+- **git merge <branchname>**: mescla a branch local atual com a branch especificada.
